@@ -1,8 +1,24 @@
 aid: zest-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zest-ai.png
 name: Zest AI
-description: Zest AI is a company surfaced as a portfolio company of insight-partners, lightspeed-venture-partners,
-  matrix-partners and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: Zest AI is an AI-powered lending technology company that provides credit
+  underwriting, fraud detection, and lending intelligence software to credit unions,
+  banks, and specialty lenders. Its machine-learning models automate credit decisioning
+  and risk assessment, and the company reports operating over 600 active lending models
+  in production. Zest AI operates as a B2B SaaS platform delivered to financial institutions
+  rather than as a public developer API; no public developer portal, API documentation,
+  OpenAPI specification, SDKs, or self-service developer surface were found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/zest-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Lending
+- Credit Underwriting
+- Fraud Detection
+- Artificial Intelligence
+- Machine Learning
+- Financial Services
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zest-ai-domain-security.yml
 - type: Website
   url: https://zest.ai/
+- type: Blog
+  url: https://zest.ai/blog
+- type: PrivacyPolicy
+  url: https://zest.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
