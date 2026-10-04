@@ -46,10 +46,10 @@ tags:
 - Company
 - Lending
 - Credit Underwriting
-- Fraud Detection
+- Fraud Prevention
 - Artificial Intelligence
-- Machine-Learning
-- Financial-Services
+- Machine Learning
+- Financial Services
 - Fintech
 tags_raw:
 - Company
@@ -60,6 +60,8 @@ tags_raw:
 - Machine Learning
 - Financial Services
 - Fintech
+- Machine-Learning
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
